@@ -6,6 +6,10 @@ class LinkedList {
         this.size = 0;
     }
 
+    getThis() {
+        return this;
+    }
+
     getRoot() {
         return this.root;
     }
